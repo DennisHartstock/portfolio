@@ -18,7 +18,7 @@ body {
 }
 
 .page-header {
-  margin: 0 0 180px;
+  margin: 0 0 100px;
   padding: 32px 0 32px;
 }
 
@@ -63,8 +63,9 @@ body {
 
 .hero-image p {
   margin: 0;
-  font-size: 32px;
-  line-height: 48px;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: start;
 }
 
 .intro {
@@ -101,7 +102,7 @@ body {
 }
 
 .skills-list dt {
-  padding-left: 32px;
+  padding-left: 8px;
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -115,10 +116,11 @@ body {
 }
 
 .level {
-  margin: 4px 0 16px;
-  padding: 0;
+  margin: 4px 0 20px;
+  padding: 8;
   height: 14px;
-  font-size: 0;
+  font-size: 10;
+  text-align: end;
   background-color: #080208;
   border: 1px solid #712073;
   border-radius: 8px;
@@ -128,6 +130,7 @@ body {
   margin: 1px;
   height: 12px;
   background-color: #fea18d;
+  color:#FFF;
   border-radius: 6px;
 }
 
